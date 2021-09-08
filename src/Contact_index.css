@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap");
+
+:root {
+  --orange: #ff5d22;
+  --dark-blue: #221638;
+  --white: #fff;
+  --black: black;
+  --grad_1: #65258a;
+  --grad_2: #e80566;
+  --light-bg: #f1f8fb;
+  --grey: #aaaaaa;
+  --light_grey: #f9f9f9;
+  --solar_white: #fefcf8;
+  --grey_border: #e2e2e2;
+  --dark_bg_blue: #221638;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease 0.5s;
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+}
+
+.page_banner h2 {
+    margin-top: 90px;
+    color: var(--black);
+    font-weight: 700;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+.contact_info {
+    margin: 40px auto;
+}
+
+.type_info_box {
+    padding: 20px 16px;
+    border: 1px solid var(--grey_border);
+    background-color: var(--light_grey);
+    cursor: default;
+}
+
+.type_info_box:hover .icon i {
+    color: var(--orange);
+}
+
+.type_info_box:hover{
+    box-shadow: var(--orange) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.type_info_box h3 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.type_info_box p {
+    font-size: 18px;
+}
+
+.icon i {
+    padding: 6px 10px;
+    font-size: 50px;
+}
+.contact_form {
+    margin-bottom: 50px;
+}
+.form_main {
+    margin: 20px 0;
+    padding:  15px 35px;
+    background-color: var(--light_grey);
+    border: 1px solid var(--grey_border);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.form_main input {
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 10px;
+    outline: 0;
+    border: 1px solid var(--grey_border);
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.form_main input:focus {
+    border: 1px solid var(--orange);
+}
+
+.input_message {
+    width: 100%;
+    height: 180px;
+    padding: 10px 10px;
+    outline: 0;
+    border: 1px solid var(--grey_border);
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.input_message:focus {
+    border: 1px solid var(--orange);
+}
+
+.form_btn {
+    width: auto!important;
+    padding: 11px 35px!important;
+    background-color: var(--white);
+    border: 1px solid var(--orange)!important;
+    font-size: 16px!important;
+    font-weight: 600!important;
+}
+
+.form_btn:hover {
+    color: var(--white);
+    background-color: var(--orange);
+    box-shadow: var(--orange) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+

@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap");
+
+:root {
+  --orange: #ff5d22;
+  --dark-blue: #221638;
+  --white: #fff;
+  --black: black;
+  --grad_1: #65258a;
+  --grad_2: #e80566;
+  --light-bg: #f1f8fb;
+  --grey: #aaaaaa;
+  --solar_white: #fefcf8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease 0.5s;
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+}
+
+.about_banner {
+  margin-top: 80px;
+  align-items: top;
+}
+
+.about_title {
+  color: var(--orange);
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.about_heading {
+  font-size: 45px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.about_para {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  line-height: 30px;
+  color: var(--grey);
+}
+
+.about_card_item {
+  padding: 13px;
+  margin: 27px 0;
+  border-radius: 5px;
+  transition: 0.5s;
+  border: 1px solid #dedede;
+}
+
+.about_card_item:hover {
+  border: 1px solid var(--orange);
+}
+
+.about_card_item {
+  display: flex;
+  align-items: center;
+}
+
+.about_card_img img {
+  height: 45px;
+  margin-right: 20px;
+}
+
+.about_card_content h2 {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1px;
+}
+
+.aboutus {
+  margin-top: 70px;
+}
+
+.aboutus img {
+  margin-left: 96.4%;
+  margin-top: -300px;
+}
+
+.about_type_box {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.about_type_box h1 {
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.about_type_box p {
+  font-size: 19px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.about_type_box li {
+  padding: 7px;
+}
+
+.bi-check-square {
+  font-weight: 700;
+  font-size: 18px;
+}
+.about_type_box li:hover .bi-check-square {
+  color: var(--orange);
+}
+
+#about_historypage_bg {
+  background-color: var(--light-bg);
+  padding: 50px 0;
+}
+
+.about_history_card {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  margin: 20px 70px;
+  justify-content: space-around;
+  background-color: var(--white);
+}
+
+.about_history_card h1 {
+  font-size: 33px;
+  font-weight: 800;
+}
+
+.about_history_card p {
+  font-size: 20px;
+  padding-right: 30px;
+}
+
+.about_history_card_content span {
+  font-weight: 800;
+}
+
+.about_history_card_img img {
+  width: 850px;
+}
+
+.about_choose_section_content {
+  margin-top: 30px;
+}
+.about_choose_section_content h3 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.about_choose_section_content p {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.about_choose_section_img img {
+  margin-top: -40px;
+}
+
+.process_box {
+  border-radius: 8px;
+  padding: 30px 30px;
+  background-color: var(--light-bg);
+}
+
+.process_box:hover {
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.process_box img {
+  width: 170px;
+  padding-bottom: 10px;
+}
+
+.process_box h2 {
+  padding: 5px 0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.process_box p {
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.scientist_card img {
+  width:  230px;
+}
+
+.scientist_card h3 {
+  font-size: 26px;
+  font-weight:  700;
+  padding: 7px 0;
+  letter-spacing: 1px;
+}
+
+.scientist_card p {
+  margin-top: -13px;
+  padding-bottom: 8px;
+}
+
+.scientist_card span {
+  padding: 3px 8px;
+}
+
+.scientist_card span:hover {
+  background-color: var(--orange);
+}
+
+.scientist_card span:hover .scientist_icon {
+  color: var(--white);
+}
+
+.scientist_icon {
+  color:  var(--grey);
+  cursor: pointer;
+}
+
+#testimonial_bg {
+  background-color: var(--light-bg);
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.testimonial_card {
+  padding: 40px;
+  background-color: var(--white);
+}
+
+.testimonial_card p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.testimonial_card img {
+  padding: 20px 0;
+  height: 100px;
+}
+
+.testimonial_card h5 {
+  font-weight: bold;
+}
+
+.testimonial_card span {
+  color: var(--grey);
+}
+
+.footer {
+  padding: 40px;
+ 
+}
+
+#footer_bg {
+  background-color: var(--solar_white);
+}
+
+.footer img {
+  margin-bottom: 20px;
+}
+
+.footer_para {
+  font-size: 17px;
+}
+
+.footer_menu h4 {
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+}
+
+.footer_menu li {
+  padding: 5px 0;
+}
+
+.footer_menu span {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.footer_menu li a {
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.footer_menu li a:hover {
+  color: var(--orange);
+}
+
+
+
+@media only screen and (max-width: 1918px) {
+  .aboutus img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .about_history_card {
+    display: block;
+    margin: 20px 10px;
+  }
+
+  .about_history_card p {
+    padding-right: 1px;
+  }
+}

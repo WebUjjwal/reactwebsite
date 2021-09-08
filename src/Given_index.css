@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap");
+
+:root {
+  --orange: #ff5d22;
+  --dark-blue: #221638;
+  --white: #fff;
+  --black: black;
+  --grad_1: #65258a;
+  --grad_2: #e80566;
+  --light-bg: #f1f8fb;
+  --grey: #aaaaaa;
+  --light_grey: #f9f9f9;
+  --solar_white: #fefcf8;
+  --grey_border: #e2e2e2;
+  --dark_bg_blue: #221638;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all ease 0.5s;
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+}
+
+.given_container {
+    margin-top: 150px;
+}
+
+.given_card {
+    cursor: default;
+    padding: 20px 15px;
+    border-radius: 10px;
+    border: 1px solid var(--grey_border);
+    background-color: var(--light_grey);
+}
+
+.given_card:hover {
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.given_card:hover  h4{
+    color: var(--orange);
+}
+
+.given_card a {
+    text-decoration: none;
+    color: var(--orange);
+    font-weight: 600;
+}
+
+.given_card a:hover{
+    color: var(--grey);
+}
+
+.given_card img {
+    height: 90px;
+    padding-bottom: 20px;
+    /* filter: grayscale(100%); */
+}
+
+.given_card h4 {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.given_card p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#project_with_us_bg {
+    padding: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: var(--dark_bg_blue);
+}
+
+#project_with_us_bg .design_1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#project_with_us_bg .design_2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.project_with_img img {
+    z-index:  99999999;
+}
+
+.project_with_us_content  {
+    margin-top: 70px;
+}
+
+.project_with_us_content h3 {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.project_with_us_content p {
+    font-size: 18px;
+    font-weight: 300;
+    color: var(--white);
+    margin-bottom: 15px;
+}
